@@ -1,0 +1,97 @@
+/* * {
+  border: 1px solid red;
+} */
+
+#port_1_nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0% 1%;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#port_1_nav > div {
+  width: 50%;
+}
+#port_12_nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+#port_2_home {
+  background-color: black;
+  background-image: linear-gradient(red, orange);
+  display: flex;
+  padding: 1% 1%;
+  height: 500px;
+}
+#port_2_home > div {
+  width: 50%;
+  height: 300px;
+  padding-top: 5%;
+  text-align: center;
+  color: white;
+  border: 10px inset white;
+}
+#port_2_home > div > img {
+  border-radius: 50%;
+  height: 250px;
+
+  width: auto;
+}
+#port_2_about {
+  background-image: linear-gradient(orange, lightyellow);
+  border: 10px groove black;
+  padding: 2% 0%;
+  text-align: center;
+  font-size: 20px;
+  height: 500px;
+}
+#port_3_skill {
+  border: 10px dashed white;
+  padding-top: 2%;
+  text-align: center;
+  background-image: linear-gradient(lightyellow, lightgreen);
+  background-color: black;
+}
+#port_31_skill,
+#port_32_skill {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 5%;
+}
+#port_31_skill > img,
+#port_32_skill > img {
+  background-color: white;
+  width: 10%;
+  border: 5px dotted lime;
+  border-radius: 50%;
+}
+#port_4_projects {
+  background-image: linear-gradient(lightgreen, lightblue);
+  height: 500px;
+  border: 10px dashed white;
+}
+#port_5_contact {
+  padding: 2%;
+  background-image: linear-gradient(lightblue, pink);
+  height: 500px;
+  display: flex;
+  background-color: black;
+  border: 10px ridge white;
+}
+#port_51_contact > h4 > img,
+#port_51_contact > a > img {
+  background-color: white;
+  border: 5px solid white;
+  width: 20px;
+  height: 20px;
+}
