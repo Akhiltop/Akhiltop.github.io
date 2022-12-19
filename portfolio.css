@@ -4,11 +4,12 @@
 
 #port_1_nav {
   position: sticky;
-
+  background-color: lightskyblue;
   top: 0;
   display: flex;
+  justify-content: space-between;
 
-  background-color: rgba(255, 255, 255, 255);
+  /* background-color: rgba(255, 255, 255, 255); */
   padding: 0% 1%;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
@@ -31,30 +32,32 @@
   justify-content: space-around;
   align-items: center;
   font-weight: bold;
-  font-size: 20px;
 }
 #port_2_home {
   background-color: black;
-  background-image: linear-gradient(red, orange);
+  background-image: linear-gradient(lightskyblue, lightpink);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 1% 1%;
+  border: 10px dashed white;
   /* height: 500px; */
 }
 #port_2_home > div {
   width: max(45%, 300px);
 
   /*   */
-  padding-top: 5%;
+  padding-top: 70px;
   text-align: center;
-  color: white;
+  color: black;
+  text-shadow: 2px 2px lightpink;
   border: 10px inset white;
 }
 #port_2_home > div > img {
   border-radius: 50%;
   width: max(50px, 10%);
   height: 150px;
+  border: 5px solid lightpink;
 
   width: auto;
 }
@@ -62,7 +65,7 @@
   padding: 1.5% 3%;
   border-radius: 20px;
 
-  border: 5px solid orangered;
+  border: 5px solid lightpink;
 }
 #port_2_home > div > button > a {
   text-decoration: none;
@@ -71,19 +74,23 @@
 }
 
 #port_2_about {
-  background-image: linear-gradient(orange, lightyellow);
-  border: 10px groove black;
-  padding-top: 4%;
+  background-image: linear-gradient(lightpink, lightsalmon);
+  border: 10px ridge white;
+  padding-top: 70px;
   text-align: center;
+  text-shadow: 2px 2px lightsalmon;
   font-size: 20px;
+  color: black;
+
   /* height: 500px; */
 }
 #port_3_skill {
   border: 10px dashed white;
-  padding-top: 4%;
+  padding-top: 70px;
   text-align: center;
-  background-image: linear-gradient(lightyellow, lightgreen);
+  background-image: linear-gradient(lightsalmon, lightgoldenrodyellow);
   background-color: black;
+  text-shadow: 2px 2px lightgoldenrodyellow;
 }
 #port_31_skill,
 #port_32_skill {
@@ -97,13 +104,13 @@
 #port_32_skill > img {
   background-color: white;
   width: 10%;
-  border: 5px dotted lime;
+  border: 5px dotted lightsalmon;
   border-radius: 50%;
 }
 #port_4_projects {
-  padding-top: 4%;
-  background-image: linear-gradient(lightgreen, lightblue);
-  border: 10px dashed white;
+  padding-top: 70px;
+  background-image: linear-gradient(lightgoldenrodyellow, lightgreen);
+  border: 10px ridge white;
   text-align: center;
 }
 #port_41_projects {
@@ -136,14 +143,27 @@
   width: 100%;
   border-radius: 20px;
 }
+#port_42_projects {
+  background-image: linear-gradient(lightgreen, lightpink);
+  text-align: center;
+  border: 10px dashed white;
+  padding-top: 70px;
+}
+
+#port_42_projects > a {
+  text-decoration: none;
+}
 
 #port_5_contact {
-  padding: 4%;
-  background-image: linear-gradient(lightblue, pink);
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(lightpink, lightblue);
 
   display: flex;
   background-color: black;
   border: 10px ridge white;
+  text-shadow: 2px 2px lightblue;
 }
 #port_51_contact > h4 > img,
 #port_51_contact > a > img {
@@ -161,5 +181,85 @@
   align-items: center;
 }
 #port_51_contact > h4 > span {
-  margin-left: 10%;
+  margin-left: 1%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: lightskyblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightskyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: lightblue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media screen and (min-width: 750px) {
+  #port_12_nav {
+    display: flex;
+  }
+  .navbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar {
+    display: flex;
+  }
+  #port_12_nav {
+    display: none;
+  }
 }
