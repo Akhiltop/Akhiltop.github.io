@@ -4,9 +4,11 @@
 
 #port_1_nav {
   position: sticky;
+
   top: 0;
   display: flex;
-  background-color: rgba(255, 255, 255, 0);
+
+  background-color: rgba(255, 255, 255, 255);
   padding: 0% 1%;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
@@ -17,8 +19,15 @@
 #port_1_nav > div {
   width: 50%;
 }
+#port_1_nav > div > a {
+  text-decoration: none;
+
+  color: black;
+}
+
 #port_12_nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   font-weight: bold;
@@ -28,12 +37,15 @@
   background-color: black;
   background-image: linear-gradient(red, orange);
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   padding: 1% 1%;
-  height: 500px;
+  /* height: 500px; */
 }
 #port_2_home > div {
-  width: 50%;
-  height: 300px;
+  width: max(45%, 300px);
+
+  /*   */
   padding-top: 5%;
   text-align: center;
   color: white;
@@ -41,21 +53,34 @@
 }
 #port_2_home > div > img {
   border-radius: 50%;
-  height: 250px;
+  width: max(50px, 10%);
+  height: 150px;
 
   width: auto;
 }
+#port_2_home > div > button {
+  padding: 1.5% 3%;
+  border-radius: 20px;
+
+  border: 5px solid orangered;
+}
+#port_2_home > div > button > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 #port_2_about {
   background-image: linear-gradient(orange, lightyellow);
   border: 10px groove black;
-  padding: 2% 0%;
+  padding-top: 4%;
   text-align: center;
   font-size: 20px;
-  height: 500px;
+  /* height: 500px; */
 }
 #port_3_skill {
   border: 10px dashed white;
-  padding-top: 2%;
+  padding-top: 4%;
   text-align: center;
   background-image: linear-gradient(lightyellow, lightgreen);
   background-color: black;
@@ -76,14 +101,46 @@
   border-radius: 50%;
 }
 #port_4_projects {
+  padding-top: 4%;
   background-image: linear-gradient(lightgreen, lightblue);
-  height: 500px;
   border: 10px dashed white;
+  text-align: center;
 }
+#port_41_projects {
+  display: flex;
+  flex-wrap: wrap;
+
+  row-gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+#port_41_projects > div {
+  width: max(200px, 30%);
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+#port_41_projects > div > button {
+  padding: 1% 2%;
+  margin: 1% 1%;
+  border-radius: 10px;
+}
+#port_41_projects > div > button > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#port_41_projects > div > img {
+  width: 100%;
+  border-radius: 20px;
+}
+
 #port_5_contact {
-  padding: 2%;
+  padding: 4%;
   background-image: linear-gradient(lightblue, pink);
-  height: 500px;
+
   display: flex;
   background-color: black;
   border: 10px ridge white;
@@ -94,4 +151,15 @@
   border: 5px solid white;
   width: 20px;
   height: 20px;
+}
+#port_51_contact > a {
+  text-decoration: none;
+}
+
+#port_51_contact > h4 {
+  display: flex;
+  align-items: center;
+}
+#port_51_contact > h4 > span {
+  margin-left: 10%;
 }
