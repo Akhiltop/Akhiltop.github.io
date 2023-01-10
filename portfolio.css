@@ -28,6 +28,13 @@ body {
 
   color: black;
 }
+#port_12_nav > a:hover {
+  text-decoration: none;
+  font-size: 36px;
+  background-color: lightblue;
+  padding: 3px;
+  border-radius: 15px;
+}
 
 #port_12_nav {
   display: flex;
@@ -35,6 +42,8 @@ body {
   justify-content: space-around;
   align-items: center;
   font-weight: bold;
+  font-size: 24px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
 }
 #port_2_home {
   /* background-image: linear-gradient(lightskyblue, lightpink); */
@@ -43,15 +52,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 1% 1%;
+  /* padding: 1% 1%; */
   border: 10px dashed white;
-  /* height: 500px; */
+  align-content: center;
+  height: 100vh;
 }
 #port_2_home > div {
-  width: max(45%, 300px);
+  width: max(45%, 250px);
 
   /*   */
-  padding-top: 70px;
+  padding: 3% 0%;
   text-align: center;
   color: black;
   text-shadow: 2px 2px lightpink;
@@ -59,8 +69,8 @@ body {
 }
 #port_2_home > div > img {
   border-radius: 50%;
-  width: max(50px, 10%);
-  height: 150px;
+  /* width: max(100px, 20%); */
+  height: 35vh;
   border: 5px solid lightpink;
 
   width: auto;
@@ -79,27 +89,37 @@ body {
 
 #port_2_about {
   background-image: linear-gradient(lightpink, lightsalmon);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 10px ridge white;
-  padding-top: 70px;
+  /* padding-top: 70px; */
   text-align: center;
   text-shadow: 2px 2px lightsalmon;
   font-size: 20px;
   color: black;
 
-  /* height: 500px; */
+  height: 100vh;
 }
 #port_3_skill {
   border: 10px dashed white;
-  padding-top: 70px;
+  /* padding-top: 70px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background-image: linear-gradient(lightsalmon, lightgoldenrodyellow);
   background-color: black;
   text-shadow: 2px 2px lightgoldenrodyellow;
+  height: 100vh;
 }
 #port_31_skill,
 #port_32_skill {
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 5%;
@@ -107,7 +127,7 @@ body {
 #port_31_skill > img,
 #port_32_skill > img {
   background-color: white;
-  width: 10%;
+  width: max(15%, 100px);
   border: 5px dotted lightsalmon;
   border-radius: 50%;
 }
@@ -217,7 +237,7 @@ body {
   color: black;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: Brush Script MT, Brush Script Std, cursive;
   margin: 0;
 }
 
@@ -233,6 +253,7 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 .dropdown-content a {
