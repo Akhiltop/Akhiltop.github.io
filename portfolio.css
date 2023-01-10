@@ -37,8 +37,9 @@ body {
   font-weight: bold;
 }
 #port_2_home {
-  background-color: black;
-  background-image: linear-gradient(lightskyblue, lightpink);
+  /* background-image: linear-gradient(lightskyblue, lightpink); */
+  background-image: url("./image_files/pink-mountain.png");
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
