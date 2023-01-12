@@ -1,11 +1,25 @@
 /* git claender customized css */
 .contrib-number {
   font-weight: 1000;
-  font-size: 12px;
+  font-size: min(1.25vw, 16px);
   color: limegreen;
 }
 .calendar {
-  min-height: 200px;
-  border-radius: 10px;
-  /* padding: 1%; */
+  min-height: auto;
+  border-radius: 5px;
+
+  padding: 1%;
+}
+.text-muted {
+  font-size: min(1.25vw, 10px);
+}
+.float-right {
+  font-size: min(1.25vw, 10px);
+}
+.d-inline-block {
+  width: 1vw;
+  height: 1vw;
+}
+.contrib-column {
+  padding: 0px;
 }
