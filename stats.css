@@ -1,0 +1,11 @@
+/* git claender customized css */
+.contrib-number {
+  font-weight: 1000;
+  font-size: 12px;
+  color: limegreen;
+}
+.calendar {
+  min-height: 200px;
+  border-radius: 10px;
+  /* padding: 1%; */
+}
