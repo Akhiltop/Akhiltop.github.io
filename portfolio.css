@@ -200,6 +200,8 @@ body {
   background-image: linear-gradient(lightpink, lightblue);
 
   display: flex;
+  justify-content: center;
+
   background-color: black;
   border: 10px ridge white;
   text-shadow: 2px 2px lightblue;
