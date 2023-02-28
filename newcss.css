@@ -1,0 +1,378 @@
+* {
+  /* border: 1px solid red; */
+  background-color: black;
+
+  color: lawngreen;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  /* font-family: Brush Script MT, Brush Script Std, cursive; */
+}
+#port_1_nav {
+  position: sticky;
+  /* background-color: lightskyblue; */
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  border: 3px ridge lawngreen;
+
+  /* background-color: rgba(255, 255, 255, 255); */
+  padding: 0% 1%;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#port_1_nav > div {
+  width: 50%;
+}
+#port_1_nav > div > a {
+  text-decoration: none;
+
+  /* color: black; */
+}
+#port_12_nav > a:hover {
+  text-decoration: none;
+  font-size: 24px;
+  /* background-color: lightblue; */
+  /* background-color: lawngreen; */
+  /* color: black; */
+  padding: 10px;
+  border-radius: 15px;
+  border: 5px dashed lawngreen;
+}
+
+#port_12_nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  /* font-family: Brush Script MT, Brush Script Std, cursive; */
+}
+#port_2_home {
+  /* background-image: linear-gradient(lightskyblue, lightpink); */
+  background-image: url("./image_files/background_home.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* padding: 1% 1%; */
+  border: 5px dashed lawngreen;
+  align-content: center;
+  height: 100vh;
+}
+#port_2_home > div {
+  width: max(45%, 250px);
+  background-color: transparent;
+  /*   */
+  padding: 3% 0%;
+  text-align: center;
+  /* color: black; */
+  /* text-shadow: 2px 2px lightpink; */
+  border: 5px inset lawngreen;
+}
+#port_2_home > div > img {
+  border-radius: 50%;
+  /* width: max(100px, 20%); */
+  height: 35vh;
+  border: 5px solid lawngreen;
+  width: auto;
+}
+#port_2_home > div > button {
+  padding: 1.5% 3%;
+  border-radius: 20px;
+  background-color: transparent;
+
+  border: 5px solid lawngreen;
+}
+#port_2_home > div > * {
+  background-color: black;
+  border: 2px dashed;
+  /* color: black; */
+
+  text-shadow: 3px 3px black;
+}
+
+#port_2_home > div > button:hover {
+  /* background-color: lawngreen; */
+  /* color: black; */
+  padding: 1% 3%;
+  border: 5px dashed lawngreen;
+  font-size: 20px;
+  /* font-family: Brush Script MT, Brush Script Std, cursive; */
+}
+
+#port_2_home > div > button > a {
+  text-decoration: none;
+  /* color: black; */
+  font-weight: bold;
+}
+
+#port_2_about {
+  /* background-image: linear-gradient(lightpink, lightsalmon); */
+  background-image: url("./image_files/background_about2.jpg");
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px ridge lawngreen;
+  /* padding-top: 70px; */
+  text-align: center;
+  /* text-shadow: 2px 2px lightsalmon; */
+  font-size: 20px;
+  /* color: black; */
+
+  height: 100vh;
+}
+
+#port_2_about > * {
+  border: 2px dashed;
+  padding: 5px;
+}
+
+#port_3_skill {
+  background-image: url("./image_files/skills.jpg");
+  background-position: center;
+  background-size: cover;
+
+  border: 5px dashed lawngreen;
+  /* padding-top: 70px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background-image: linear-gradient(lightsalmon, lightgoldenrodyellow); */
+  background-color: black;
+  /* text-shadow: 2px 2px lightgoldenrodyellow; */
+  height: 100vh;
+}
+#port_31_skill,
+#port_32_skill {
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 5%;
+  width: 100%;
+}
+#port_31_skill > img {
+  /* background-color: transparent; */
+  width: max(16%, 100px);
+  border: 3px dotted lawngreen;
+  border-radius: 50%;
+}
+#port_32_skill > img {
+  /* background-color: transparent; */
+  /* background-color: white; */
+  width: max(15%, 100px);
+  border: 3px dotted lawngreen;
+  border-radius: 50%;
+}
+#port_4_projects {
+  padding-top: 70px;
+  /* background-image: linear-gradient(lightgoldenrodyellow, lightgreen); */
+  border: 5px ridge lawngreen;
+  text-align: center;
+}
+#port_41_projects {
+  display: flex;
+  flex-wrap: wrap;
+
+  row-gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+#port_41_projects > div {
+  width: max(200px, 30%);
+  border: 3px dashed lawngreen;
+  /* background-color: black; */
+  /* color: white; */
+  border-radius: 20px;
+}
+#port_41_projects > div > button {
+  padding: 1% 2%;
+  margin: 1% 1%;
+  border-radius: 10px;
+  border: 2px ridge lawngreen;
+}
+#port_41_projects > div > button:hover {
+  /* background-color: lightgreen; */
+  /* font-family: Brush Script MT, Brush Script Std, cursive; */
+  font-size: 20px;
+  padding: 0% 2%;
+}
+#port_41_projects > div > button > a {
+  text-decoration: none;
+  /* color: black; */
+  font-weight: bold;
+}
+
+#port_41_projects > div > img {
+  width: 100%;
+  border-radius: 20px;
+}
+#port_42_projects {
+  /* background-image: linear-gradient(lightgreen, lightpink); */
+  text-align: center;
+  border: 5px dashed lawngreen;
+  padding-top: 70px;
+}
+
+#port_42_projects > a {
+  text-decoration: none;
+}
+
+#port_5_contact {
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  /* background-image: linear-gradient(lightpink, lightblue); */
+
+  display: flex;
+  justify-content: center;
+
+  /* background-color: black; */
+  border: 5px ridge lawngreen;
+  /* text-shadow: 2px 2px lightblue; */
+}
+#port_51_contact > h4 > img,
+#port_51_contact > a > img {
+  background-color: white;
+  border: 5px solid white;
+
+  width: 20px;
+  height: 20px;
+}
+#port_51_contact > a > img:hover {
+  /* background-color: lightblue; */
+  border: 0px;
+  width: 25px;
+  height: 25px;
+}
+
+#port_51_contact > a {
+  text-decoration: none;
+}
+
+#port_51_contact > h4 {
+  display: flex;
+  align-items: center;
+}
+#port_51_contact > h4 > span {
+  margin-left: 1%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  /* color: black; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+
+  outline: none;
+  /* color: black; */
+  padding: 14px 16px;
+  background-color: black;
+  /* font-family: Brush Script MT, Brush Script Std, cursive; */
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  /* background-color: lightskyblue; */
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  z-index: 1;
+  /* font-family: Brush Script MT, Brush Script Std, cursive; */
+}
+
+.dropdown-content a {
+  float: none;
+  border: 1px dashed;
+  /* color: black; */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media screen and (min-width: 750px) {
+  #port_12_nav {
+    display: flex;
+  }
+  .navbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar {
+    display: flex;
+  }
+  #port_12_nav {
+    display: none;
+  }
+}
+
+/* typing animations
+
+.wrapper {
+  height: auto;
+  This part is important for centering
+  display: grid;
+  place-items: center;}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+typing animations */
