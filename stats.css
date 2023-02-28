@@ -1,12 +1,15 @@
 /* git claender customized css */
+
 .contrib-number {
   font-weight: 1000;
   font-size: min(1.25vw, 16px);
-  color: limegreen;
+  color: lawngreen;
 }
 .calendar {
   min-height: auto;
   border-radius: 5px;
+  border: 3px dashed lawngreen;
+  color: lawngreen;
 
   padding: 1%;
 }
