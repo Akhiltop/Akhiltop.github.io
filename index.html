@@ -10,20 +10,14 @@
       rel="stylesheet"
       href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
     />
-    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="newcss.css" />
     <link rel="stylesheet" href="stats.css" />
   </head>
   <body>
     <div id="portfolioak">
       <div id="port_1_nav">
         <div id="port_11_nav">
-          <a href=""
-            ><h2
-              style="font-family: Brush Script MT, Brush Script Std, cursive"
-            >
-              Ay
-            </h2></a
-          >
+          <a href=""><h2>Ay</h2></a>
         </div>
         <div id="port_12_nav">
           <a href="#port_2_home">Home</a>
@@ -32,14 +26,17 @@
           <a href="#port_4_projects">Projects</a>
           <!-- <a href="#port_42_projects">Stats</a> -->
           <a href="#port_5_contact">Contact</a>
-          <a href="Akhil_Yadlapalli_Resume.pdf" target="_blank">Resume</a>
+          <!-- <a href="Akhil_Yadlapalli_Resume.pdf" target="_blank">Resume</a> -->
+          <a href="Akhil_Yadlapalli_Resume.pdf" download="" onclick="opentab()"
+            >Resume</a
+          >
         </div>
         <div class="navbar">
           <div class="dropdown">
             <button class="dropbtn">
               <strong
                 style="
-                  border: 2px solid skyblue;
+                  border: 2px dashed lawngreen;
                   padding: 10px;
                   border-radius: 15px;
                   text-align: right;
@@ -55,7 +52,12 @@
               <a href="#port_4_projects">Projects</a>
               <!-- <a href="#port_42_projects">Stats</a> -->
               <a href="#port_5_contact">Contact</a>
-              <a href="Akhil_Yadlapalli_Resume.pdf" download="">Resume</a>
+              <a
+                href="Akhil_Yadlapalli_Resume.pdf"
+                download=""
+                onclick="opentab()"
+                >Resume</a
+              >
             </div>
           </div>
         </div>
@@ -67,7 +69,12 @@
           <h2>Java Backend Developer</h2>
           <h3>From India</h3>
           <button>
-            <a href="Akhil_Yadlapalli_Resume.pdf" download="">My resume</a>
+            <a
+              href="Akhil_Yadlapalli_Resume.pdf"
+              download=""
+              onclick="opentab()"
+              >My resume</a
+            >
           </button>
           <br />
           <br />
@@ -98,17 +105,22 @@
         <h1>Skills</h1>
 
         <div id="port_31_skill">
-          <img src="image_files\html5-original.svg" alt="html5" />
-
-          <img src="image_files\css3-original.svg" alt="css3" />
-          <img src="image_files\javascript-original.svg" alt="javascript" />
-          <img src="image_files\bootstrap-original.svg" alt="javascript" />
+          <img src="image_files\icons8-html-5.svg" alt="html5" />
+          <img src="image_files\icons8-css3.svg" alt="css3" />
+          <img src="image_files\icons8-javascript-logo.svg" alt="javascript" />
+          <img src="image_files\icons8-java.svg" alt="java" />
+          <img src="image_files\icons8-database-100.png" alt="mysql" />
         </div>
+        <h1>Tools</h1>
         <div id="port_32_skill">
-          <img src="image_files\java-original.svg" alt="java" />
+          <img src="image_files\bootstrap-original.svg" alt="bootstrap" />
           <img src="image_files\spring-original.svg" alt="spring" />
-          <img src="image_files\mysql-original.svg" alt="mysql" />
           <img src="image_files\github-original.svg" alt="github" />
+          <img
+            src="image_files\Visual_Studio_Code_1.35_icon.svg.png"
+            alt="vscode"
+          />
+          <img src="image_files\postman-icon.png" alt="postman" />
         </div>
       </div>
       <div id="port_4_projects">
@@ -118,7 +130,7 @@
             <img src="image_files\gusto_clone.jpg" alt="" />
             <h3>Gusto Clone</h3>
             <p>
-              A website clone made with a variety of design patterns with
+              Gusto's people platform helps growing businesses onboard, pay, insure, and support their hardworking teams with payroll, benefits, and more.Its a clone made with a variety of design patterns with
               attractive properties
             </p>
             <p>#HTML #CSS #Design</p>
@@ -132,28 +144,30 @@
             </button>
           </div>
           <div id="port_412_projects">
-            <img src="image_files\crime_management_app.jpg" alt="" />
+            <img src="image_files\travelocity_clone.jpg" alt="" />
 
-            <h3>Crime Management System</h3>
+            <h3>Travelocity Clone</h3>
             <p>
-              A console based project for finding details of crimes and allied
-              activities
+              An Online Travel Booking website where you can book your
+              ticket and more explore various places regarding the travel.Its a clone where functionalities such as list,grid and sliding patterns are designed.
             </p>
-            <p>#Java #MySQL #JDBC #Dao</p>
+            <p>#HTML #CSS #Javascript #Design</p>
             <button>
-              <a href="https://github.com/Akhiltop/awesome-basin-5226"
+              <a href="https://github.com/Code-With-Hashim/boss-magic-6284""
                 >Github</a
               >
             </button>
-            <button><a href="">Video</a></button>
+            <button>
+              <a href="https://travelocity-website-clone.netlify.app/">Live</a>
+            </button>
           </div>
           <div id="port_413_projects">
             <img src="image_files\course_system.jpg" alt="" />
 
             <h3>Course Management System</h3>
             <p>
-              A console based project for helping a faculty head to know the
-              course activity
+              This is a system which helps the faculty head to work on various courses available in an institution and handle them easily.
+              A console based project which can be customized according to the functionalities required by the user.
             </p>
             <p>#Java #MySQL #JDBC #Dao</p>
             <button>
@@ -165,6 +179,22 @@
               <a href="">Video</a>
             </button>
           </div>
+          <div id="port_414_projects">
+            <img src="image_files\crime_management_app.jpg" alt="" />
+
+            <h3>Bus Reservation System</h3>
+            <p>
+              This is a system where the user will be able to book tickets and admin can perform functions related to CRUD.
+              it includes frontend and backend modules for presentation and customization as well.
+            </p>
+            <p>#Java #MySQl #Springboot #Spring #JPA #Hibernate #JDBC #lombok #Swagger #HTML #CSS #Javascript</p>
+            <button>
+              <a href="https://github.com/akashr1122/skillful-shirt-5398"
+                >Github</a
+              >
+            </button>
+            <button><a href="https://drive.google.com/drive/folders/1qpr0Ylt0Lo5135Hkf5DFA8FxEVTuokMd?usp=sharing">Video</a></button>
+          </div>
         </div>
         <br />
       </div>
@@ -173,37 +203,45 @@
         <a href="https://github.com/Akhiltop/github-readme-stats">
           <img
             alt="Akhil Github Stats"
-            src="https://github-readme-stats-sigma-five.vercel.app/api?username=Akhiltop&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"
-            style="width: max(40%, 220px)"
+            src="https://github-readme-stats-sigma-five.vercel.app/api?username=Akhiltop&show_icons=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117"
+            style="width: max(40%, 220px); border: 3px dashed lawngreen"
         /></a>
         <a href="https://github.com/Akhiltop/github-readme-streak-stats">
           <img
             title="🔥 Get streak stats for your profile at git.io/streak-stats"
             alt="Akhil streak"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=Akhiltop&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"
-            style="background-color: black; width: max(40%, 220px)"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=Akhiltop&theme=chartreuse-dark&hide_border=true&stroke=0000&background=060A0CD0"
+            style="
+              background-color: black;
+              width: max(40%, 220px);
+              border: 3px dashed lawngreen;
+            "
           />
         </a>
         <a href="https://github.com/Akhiltop/github-readme-stats">
           <img
             alt="Akhil's Top Languages"
-            src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Akhiltop&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"
-            style="width: max(40%, 220px)"
+            src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Akhiltop&langs_count=8&count_private=true&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117"
+            style="
+              width: max(40%, 220px);
+              border: 3px dashed lawngreen;
+              padding-top: 0.55%;
+            "
           />
         </a>
         <a href="https://github.com/Akhiltop/github-readme-activity-graph">
           <img
             alt="Akhil's Activity Graph"
-            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Akhiltop&theme=2077"
-            style="padding: 2% 0%; width: max(40%, 220px)"
+            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Akhiltop&theme=github_dark"
+            style="
+              padding: 2% 0%;
+              width: max(40%, 220px);
+              border: 3px dashed lawngreen;
+            "
         /></a>
         <div
           class="calendar"
-          style="
-            width: max(40%, 220px);
-            background-color: black;
-            color: lightskyblue;
-          "
+          style="width: max(40%, 220px); background-color: black"
         >
           <!-- Loading stuff -->
           Loading the data just for you.
@@ -247,4 +285,7 @@
 
   // or enable responsive functionality:
   GitHubCalendar(".calendar", "Akhiltop", { responsive: true });
+  function opentab() {
+    window.open("./Akhil_Yadlapalli_Resume.pdf", "_blank");
+  }
 </script>
