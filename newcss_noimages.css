@@ -55,9 +55,9 @@ body {
 }
 #port_2_home {
   /* background-image: linear-gradient(lightskyblue, lightpink); */
-  background-image: url("./image_files/background_home_black.jpg");
+  /* background-image: url("./image_files/background_home_black.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -92,7 +92,7 @@ body {
 }
 #port_2_home > div > * {
   background-color: black;
-  border: 2px dashed;
+  /* border: 2px dashed; */
   /* color: black; */
 
   text-shadow: 3px 3px black;
@@ -115,8 +115,8 @@ body {
 
 #port_2_about {
   /* background-image: linear-gradient(lightpink, lightsalmon); */
-  background-image: url("./image_files/background_about2_black.jpg");
-  background-position: center;
+  /* background-image: url("./image_files/background_about2_black.jpg");
+  background-position: center; */
 
   display: flex;
   flex-direction: column;
@@ -139,9 +139,9 @@ body {
 
 #port_3_skill {
   padding-top: 70px;
-  background-image: url("./image_files/skills_black.jpg");
+  /* background-image: url("./image_files/skills_black.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 
   border: 5px dashed lawngreen;
   /* padding-top: 70px; */
@@ -163,7 +163,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-
   padding-bottom: 5%;
   width: 100%;
 }
@@ -187,9 +186,9 @@ body {
   text-align: center;
 }
 #port_41_projects {
-  background-image: url("./image_files/background_projects_black.jpg");
+  /* background-image: url("./image_files/background_projects_black.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   display: flex;
   flex-wrap: wrap;
 
@@ -227,9 +226,9 @@ body {
   border-radius: 20px;
 }
 #port_42_projects {
-  background-image: url("./image_files/background_stats3_black.jpg");
+  /* background-image: url("./image_files/background_stats3_black.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   /* background-image: linear-gradient(lightgreen, lightpink); */
   text-align: center;
   border: 5px dashed lawngreen;
@@ -241,9 +240,9 @@ body {
 }
 
 #port_5_contact {
-  background-image: url("./image_files/background_contact.jpg");
+  /* background-image: url("./image_files/background_contact.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   padding-top: 70px;
   padding-left: 10px;
   padding-bottom: 70px;
