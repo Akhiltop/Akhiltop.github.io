@@ -64,7 +64,8 @@ body {
   /* padding: 1% 1%; */
   border: 5px dashed lawngreen;
   align-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: auto;
 }
 #port_2_home > div {
   width: max(45%, 250px);
@@ -129,7 +130,8 @@ body {
   font-size: 20px;
   /* color: black; */
 
-  height: 100vh;
+  min-height: 100vh;
+  max-height: auto;
 }
 
 #port_2_about > * {
@@ -153,7 +155,8 @@ body {
   /* background-image: linear-gradient(lightsalmon, lightgoldenrodyellow); */
   background-color: black;
   /* text-shadow: 2px 2px lightgoldenrodyellow; */
-  height: 100vh;
+  min-height: 100vh;
+  max-height: auto;
 }
 #port_31_skill,
 #port_32_skill {
@@ -339,6 +342,14 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media screen and (max-width: 350px) {
+  #port_31_skill > img,
+  #port_32_skill > img {
+    width: 60px;
+  }
+}
+
 @media screen and (min-width: 750px) {
   #port_12_nav {
     display: flex;
